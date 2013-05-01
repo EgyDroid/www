@@ -1,0 +1,29 @@
+﻿.knowButton
+{
+    background-image: url(../images/b1.png);
+}
+.knowButton:hover
+{
+    background-image: url(../images/b2.png);
+}
+.knowButton:active
+{
+    background-image: url(../images/b3.png);
+}
+.searchButton
+{
+    top: -33px !important;
+}
+.searchHits
+{
+    margin-left: -230px !important;
+}
+.show
+{
+    display: block;
+}
+
+.hide
+{
+    display: none;
+}

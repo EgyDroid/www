@@ -1,0 +1,21 @@
+.androidbtn{
+background:#a7c63d;
+*background:#a7c63d;
+_background:#a7c63d;
+}
+.androidbtn:hover, .androidbtn:focus {
+background: #a2c03b;
+*background:#a2c03b;
+_background:#a2c03b;
+}
+.iosbtn{
+background:#1460AC;
+*background:#1460AC;
+_background:#1460AC;
+}
+.iosbtn:hover, .iosbtn:focus {
+background: #12579d;
+*background:#12579d;
+_background:#12579d;
+}
+#nav  { margin-top: -2px; }

@@ -1,0 +1,161 @@
+﻿.searchButtonUpper
+{
+    margin-top: -11px;
+}
+.searchHits
+{
+    margin-left: -163px;
+    margin-top: 40px;
+}
+.searchBox
+{
+    height: 32px;
+}
+.searchBox_focus
+{
+    height: 32px;
+}
+.searchButtonUpper
+{
+    top: -35px;
+}
+#pgFooter
+{
+    display: none;
+}
+body
+{
+}
+.resultView
+{
+    width: 100%;
+}
+
+.infoBox, .infoBox2
+{
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.10), 0 1px 9px rgba(0, 0, 0, 0.2);
+}
+.tabContainer
+{
+    margin-top: -24px;
+    height: 30px;
+}
+/*.navSplitter
+{
+    height: 98px !important;
+    margin-top:-156px !important;
+}*/
+.navSplitter
+{
+    box-shadow: none;
+    height: 30px;
+    background-image: -webkit-linear-gradient(bottom, #CCC -10%, white 30%) !important;
+    background-image: -moz-linear-gradient(bottom, #CCC -10%, white 30%) !important;
+    background-image: -ms-linear-gradient(bottom, #CCC -10%, white 30%) !important;
+    border-bottom: solid 1pt #B4B4B4;
+}
+.tabSelected
+{
+    box-shadow: 0px -1px 10px rgba(0, 0, 0, 0.3);
+    background-image: none;
+    background-color:white;
+    font-weight: 700;
+}
+.tabBar ul li span {
+padding: 1px 20px 0px 20px;
+}
+.tabSelected span
+{
+    background-image: url(../images/ipadtabright.png);
+    background-position: right 0;
+    background-repeat: no-repeat;
+    border: solid 1pt #B4B4B4;
+    border-bottom-color:White;
+}
+.tabSelected div.tabSelectedBottom
+{
+    height: 25px;
+    background-color: white;
+    margin-left: -20px;
+    margin-bottom: -2px;
+    margin-right: -20px;
+    display:inline-block;
+}
+
+.chartContainer {
+    width: 750px;
+}
+.tabBar
+{
+    overflow:visible !important;
+}
+.middleKolumn{
+       min-width:776px;
+       width:776px;
+       max-width:776px;
+       padding: 9px 0px 12px 12px;
+}
+.middleKolumn .infoBox2 {
+    width: 755px;
+}
+.videoScroll {
+    width: 700px;
+}
+.jThumbnailScroller {
+    width: 740px;
+}
+
+
+.Localsearch {
+    width: 778px;
+    overflow: hidden;
+    margin: -5px 5px -6px -5px;
+}
+.localSearchContainer
+{
+    width:454px !important;
+}
+.nestedSplitter {
+    width: 764px;
+}
+.flightDetails {
+    width:67%;
+}
+.flightCard .BigClass
+{
+    float: left !important;
+}
+.videoScroll .jTscroller a {
+    width: 138px;
+}
+.videoScroll .jTscroller a div {
+    width: 129px;
+}
+.videoScroll .jTscroller a div img {
+    min-width: 129px !important;
+}
+
+.videoBox .jThumbnailScroller .jTscroller a,.imageBox .jThumbnailScroller .jTscroller a {
+    width: 175px;
+}
+.videoBox .jThumbnailScroller .jTscroller a div , .imageBox .jThumbnailScroller .jTscroller a div {
+    width: 167px;
+}
+.videoBox .jThumbnailScroller .jTscroller a div img,.imageBox .jThumbnailScroller .jTscroller a div img {
+    width: 167px;
+}
+.videoBox .jThumbnailScroller,.imageBox .jThumbnailScroller {
+    width: 738px;
+}
+
+.Localsearch .mapObjectNested{
+    float:left;
+}
+.gkMap, .geoMap
+{
+    margin-left:0px;
+}
+.debugData
+{
+    width:739px;
+}

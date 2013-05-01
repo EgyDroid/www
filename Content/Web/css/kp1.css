@@ -1,0 +1,704 @@
+﻿html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+}
+#ttl
+{
+    margin-bottom: 9px;
+}
+#specs-info
+{
+    float: left;
+    width: 165px;
+}
+#specs-list table
+{
+    border-top: solid 1px #999;
+    border-bottom: solid 1px #999;
+}
+
+#specs-list th, #specs-list td
+{
+    padding: 1px 6px;
+    font: 12px Arial;
+    vertical-align: top;
+}
+
+#specs-list th
+{
+    width: 70px;
+    vertical-align: middle;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-right: dotted 1px #999;
+}
+
+#specs-list td
+{
+    border-bottom-style: dotted;
+    border-bottom: dotted 1px #999;
+}
+
+#specs-list td.ttl
+{
+    width: 80px;
+    font-weight: bold;
+    color: #7D7464;
+}
+
+
+.stepBg
+{
+    float: left;
+    display: inline;
+    font: 16px/normal 'Georgia';
+    color: #dfa641;
+    width: 25px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+:focus
+{
+    outline: 0;
+}
+
+.AverageWeather td, .AverageWeather tr
+{
+    text-align: center;
+    padding: 4px 3px 4px 3px;
+    border-right: solid 1px #999;
+    border-left: solid 1px #999;
+    border-bottom: solid 1px #999;
+    border-top: solid 1px #999;
+}
+.Event td
+{
+    padding: 3px 3px 4px 3px;
+    border-bottom: dashed 1px #999;
+}
+
+.AnswerTable td, .AnswerTable tr
+{
+    padding: 4px 4px 4px 4px;
+    border-bottom: solid 1px #EFEFEF;
+}
+
+table
+{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+caption, th, td
+{
+    font-weight: normal;
+}
+
+blockquote:before, blockquote:after, q:before, q:after
+{
+    content: "";
+}
+
+blockquote, q
+{
+    quotes: "" "";
+}
+
+strong
+{
+    font-weight: bold;
+}
+
+
+body
+{
+    font-size: 62.5%;
+    line-height: 1.4;
+}
+/* 10px */
+
+h1, h2, h3, h4, h5, h6
+{
+    font-weight: normal;
+}
+
+/*#content { font-size: 1.2em };
+*/
+
+p
+{
+    font-size: 1.2em;
+}
+h1
+{
+    font-size: 2em;
+    line-height: 1;
+    margin-bottom: 0.5em;
+}
+h2
+{
+    font-size: 2em;
+    margin-bottom: 0.75em;
+}
+h3
+{
+    font-size: 1.5em;
+    line-height: 1;
+    margin-bottom: 1em;
+}
+h4
+{
+    font-size: 1.2em;
+    line-height: 1.25;
+    margin-bottom: 1.25em;
+}
+h5
+{
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 1.5em;
+}
+h6
+{
+    font-size: 1em;
+    font-weight: bold;
+}
+
+
+body
+{
+    background: #fff;
+    font-family: "Lucida Grande" , Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    color: #666;
+    min-width: 790px;
+    _width: 100%;
+}
+
+
+#content
+{
+    background: #fff;
+    padding: 35px 30px 0px;
+    min-height: 400px;
+}
+
+#container
+{
+    background: #fff;
+}
+
+#modal-dialog
+{
+    display: none;
+}
+
+/*
+--------------------------------------------------
+LINKS
+--------------------------------------------------
+*/
+a:link
+{
+    color: #1170a3;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:visited
+{
+    color: #3B3A94;
+    text-decoration: none;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+
+a.stublink
+{
+    color: #a32100;
+    text-decoration: none;
+}
+
+a.stublink:hover
+{
+    text-decoration: underline;
+}
+
+a.stublink:visited
+{
+    color: #551A8B;
+    text-decoration: none;
+}
+
+a.disabled
+{
+    color: #898989;
+}
+a.disabled:hover
+{
+    text-decoration: none;
+    cursor: default;
+}
+
+.button-link a
+{
+    color: #557abb;
+}
+
+
+
+.PreviewList
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.PreviewListItem
+{
+    padding: 0.5em 0;
+}
+.PreviewLabel
+{
+    font-size: 1.8em;
+    font-weight: bold;
+}
+.PreviewLabel2
+{
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.PreviewLabel3
+{
+    font-size: 1.5em;
+}
+.TypeList
+{
+    font-size: 13px;
+    color: #999;
+    margin: .3em 0;
+}
+.article
+{
+    font-size: 1.3em;
+}
+
+.article .PI
+{
+    position: absolute;
+    left: 54px;
+    top: 43px;
+    background-image: url(../images/play-32.png);
+    background-repeat: no-repeat;
+    height:32px;
+    width:32px;
+    list-style-type: none;
+}
+.article .RT
+{
+    
+}
+
+.article2
+{
+    font-size: 1.4em;
+}
+.SearchTerm
+{
+    font-weight: bold;
+}
+/*image*/
+.ImageComponent
+{
+    width: auto;
+    margin: .3em 0em 1em 0;
+    padding: 3px 0px 0 0;
+}
+
+.ImageComponent img
+{
+    padding: 2px;
+    shadow: 0 1px 3px rgba(0, 0, 0, 0.175);
+    border: 1px solid rgb(166, 166, 166);
+    border-radius: 3px;
+    -moz-box-shadow: 0 1px 3px black;
+    -webkit-box-shadow: 0 1px 3px black;
+    background-color: #fff;
+}
+.ImageComponent img:hover
+{
+    padding: 2px;
+    shadow: 0 1px 3px rgba(0, 0, 0, 0.300);
+    border: 1px solid rgb(17, 112, 163) ;
+    border-radius: 3px;
+    -moz-box-shadow: 0 1px 3px black;
+    -webkit-box-shadow: 0 1px 3px black;
+    background-color: #fff;
+}
+.MusicImageCom
+{
+    width: auto;
+    margin-top: 1em;
+    margin-right: 1em;
+    background: url('MusicShadow.png');
+    background-repeat: no-repeat;
+    height: 115px;
+}
+
+.MusicImageCom img
+{
+    background-color: #fff;
+    margin-top: 4px;
+}
+
+.MusicImageCom2
+{
+    /*width: 120px;
+    margin-top: 1em;
+    margin-right: 1em;
+    background: url('MusicShadow.png');
+    background-repeat: no-repeat;
+    height: 110px;*/
+    position:relative
+}
+
+.MusicImageCom2 img
+{
+    background-color: #fff;
+    /*margin-top: 4px;
+    margin-left: 4px;*/
+    max-width: 130px;
+    max-height: 130px;
+}
+
+.MovieImageCom
+{
+    width: auto;
+    margin-top: 1em;
+    margin-right: 1em;
+    background: url('MovieShadow.png');
+    background-repeat: no-repeat;
+    height: 165px;
+}
+
+.MovieImageCom img
+{
+    background-color: #fff;
+    margin-top: 4px;
+}
+
+.EmptyImage
+{
+    display: none;
+}
+
+.ImageDiv
+{
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+}
+
+.Paginator
+{
+    text-align: right;
+    padding: .3em 0;
+}
+
+
+.ActiveConceptTab
+{
+    background: url('TitleBar.png') 0px -30px;
+    padding: 0px 7px 0px 7px;
+    height: 33px;
+}
+.ConceptTab
+{
+    cursor: pointer;
+    padding: 0px 7px 0px 7px;
+}
+
+.TitleBar li
+{
+    height: 28px;
+    float: left;
+    text-align: center;
+    padding-top: 3px;
+    width: 90px;
+}
+
+/*
+--------------------------------------------------
+AVs
+--------------------------------------------------
+*/
+
+
+.AVN
+{
+    cursor: pointer;
+    padding-left: 3px;
+    font-weight: normal;
+    color: #1170a3;
+    background: url(avbg2.png) no-repeat right -33px;
+    height: 33px;
+    vertical-align: middle;
+}
+
+.AVActive
+{
+    height: 33px;
+    vertical-align: middle;
+    cursor: pointer;
+    background: #FFF6EB url(avbg2.png) no-repeat right -98px;
+    padding-left: 3px;
+    font-weight: bold;
+    height: 33px;
+    vertical-align: middle;
+}
+
+.AVL
+{
+    background: #EEEEEE url(avbg2.png) no-repeat right -131px;
+    padding-right: 2px;
+    padding-left: 4px;
+    height: 1px;
+}
+
+
+/*
+--------------------------------------------------
+Parallel Search Options
+--------------------------------------------------
+*/
+
+.AOH
+{
+    background: url(avbg2.png) no-repeat right -33px;
+    padding-left: 4px;
+    font-weight: normal;
+    height: 20px;
+    vertical-align: middle;
+    font-weight: bold;
+}
+.AON
+{
+    background: url(avbg2.png) no-repeat right -33px;
+    padding-right: 2px;
+    padding-left: 4px;
+    font-weight: normal;
+    color: #1170a3;
+    height: 18px;
+    vertical-align: middle;
+    font-size: 0.9em;
+}
+.AOActive
+{
+    background: url(avbg2.png) no-repeat right -33px;
+    padding-left: 4px;
+    height: 18px;
+    vertical-align: middle;
+    font-size: 0.9em;
+}
+.AOS
+{
+    background: url(avbg2.png) no-repeat right -33px;
+    padding-left: 4px;
+    height: 12px;
+}
+
+#txt, #tbx
+{
+    border: 2px solid #72B4F9;
+}
+#txt:focus
+{
+    border: 2px solid #3B94DE;
+}
+#tbx:focus
+{
+    background: url('txt.png');
+    background-repeat: no-repeat;
+    background-position: -17px;
+    border: 2px solid #3B94DE;
+}
+
+/*
+--------------------------------------------------
+Kngine Paging
+--------------------------------------------------
+*/
+
+.kpage, .kpage ul, .kpage li
+{
+    list-style: none outside none;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.kpage a
+{
+    border: 1px solid #D4D4D4;
+    display: block;
+    margin: 0 0.40em 0 0;
+    padding: 0.20em 0.65em;
+    text-align: center;
+    font-size: 10.5pt;
+}
+.kpage a, .kpage a:visited
+{
+    color: #F2895C;
+}
+.kpage a:hover, a.kpageS
+{
+    background: none repeat scroll 0 0 #FBEFDB;
+    border: 1px solid #FFA615;
+    text-decoration: none;
+    color: #F44900;
+}
+
+.SFCTD
+{
+    padding: 3px 2px 3px 4px;
+    background-color: #ECEFF5;
+}
+
+
+/* Infinet Scroll*/
+/*
+.jcarousel-skin-tango-m .jcarousel-container-horizontal
+{
+    width: 768px;
+    padding: 0px 10px;
+}
+
+.jcarousel-skin-tango-m .jcarousel-clip-horizontal
+{
+    width: 765px;
+    height: 120px;
+}
+
+.jcarousel-skin-tango-m .jcarousel-item
+{
+    width: 144px;
+    height: 136px;
+}
+
+.jcarousel-skin-tango-m .jcarousel-item-horizontal
+{
+    margin-right: 8px;
+}
+.jcarousel-skin-tango-m .jcarousel-item-placeholder
+{
+    background: #fff;
+    color: #000;
+}
+.jcarousel-next-disabled
+{
+    background: transparent url(../images/right_gray.png) 0 0 !important;
+    background-repeat: no-repeat !important;
+    visibility: hidden;
+}
+.jcarousel-prev-disabled
+{
+    background: transparent url(../images/left_gray.png) 0 0 !important;
+    background-repeat: no-repeat !important;
+    visibility: hidden;
+}
+.jcarousel-skin-tango-m .jcarousel-next-horizontal
+{
+    position: absolute;
+    top: 60px;
+    right: 0px;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    background: transparent url(../images/right.png) 0 0;
+    background-repeat: no-repeat;
+}
+
+.jcarousel-skin-tango-m .jcarousel-prev-horizontal
+{
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    background: transparent url(../images/left.png) 0 0;
+    background-repeat: no-repeat;
+}
+.jcarousel-skin-tango .jcarousel-container-horizontal
+{
+    width: 624px;
+    padding: 20px 40px;
+}
+
+
+.jcarousel-skin-tango .jcarousel-item
+{
+    width: 150px;
+    height: 240px;
+}
+
+.jcarousel-skin-tango .jcarousel-item-horizontal
+{
+    margin-right: 10px;
+}
+.jcarousel-skin-tango .jcarousel-item-placeholder
+{
+    background: #fff;
+    color: #000;
+}
+.jcarousel-skin-tango .jcarousel-next-horizontal
+{
+    position: absolute;
+    top: 80px;
+    right: 12px;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    background: transparent url(Narrow.png) 0 0;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal
+{
+    position: absolute;
+    top: 80px;
+    left: 2px;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    background: transparent url(barrow.png) 0 0;
+}*/
+
+
+.infiniteCarousel
+{
+    position: relative;
+}
+.infiniteCarousel ul a img
+{
+    padding: 2px;
+    background-color: #fff;
+}
+.infiniteCarousel ul li
+{
+    display: block;
+    float: left;
+    padding: 10px;
+    height: 85px;
+    width: 85px;
+}
+.infiniteCarousel ul li a img
+{
+    display: block;
+}

@@ -1,0 +1,18 @@
+﻿.infoBox,.infoBox2{
+     border-collapse: separate;
+}
+.navSplitter {
+    background-image:url(../images/grad.png); 
+}
+.jTscroller
+{
+    width:888px;
+}
+.localSearchContainer
+{
+    padding-bottom:5px;
+}
+
+.jThumbnailScroller .jTscroller a{
+    border-collapse: separate;
+}

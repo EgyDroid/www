@@ -1,0 +1,73 @@
+.flipCorner
+{
+    position: relative;
+    top: -7px;
+    right: -5px;
+    z-index: 500;
+}
+
+.flipContainer
+{
+    width: 900px;
+    margin-bottom:10px;
+    -webkit-perspective: 1000;
+    -moz-perspective: 1000;
+}
+
+.flipCard
+{
+    width: 900px;
+    /*height: 170px;*/
+    -webkit-transform-style: preserve-3d;
+    -webkit-transition: 0.5s;
+    -moz-transform-style: preserve-3d;
+    -moz-transition: 0.5s;
+}
+.flip
+{
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+}
+
+
+.flipFace
+{
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+}
+
+
+.flipFront, .flipBack
+{
+    background-color: White;
+    width: 878px;
+    /*height: 150px;*/
+    padding: 10px;
+    border:1px solid #FF7F27; /*#DEA203;*/
+}
+
+.flipBack
+{
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+}
+
+.flipShadow
+{
+    box-shadow: 0 2px 9px 0px #B4B4B4;
+}
+.flipShadow:hover
+{
+    box-shadow: 0 2px 9px 0px #646464;
+}
+/*.fold:after
+{
+   content:"";
+   position:absolute;
+   top:0;
+   right:-16px;
+   border-width:0 50px 50px 0;
+   border-style:solid;
+   border-color:#fff #3f3f3f;   
+}*/

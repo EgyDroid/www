@@ -1,0 +1,10 @@
+﻿
+.autocomplete-w1 { no-repeat bottom right; position:absolute; top:0px; left:0px; margin:8px 0 0 6px; /* IE6 fix: */ _background:none; _margin:0; }
+.autocomplete { -moz-box-shadow: 0 2px 9px 0px #B4B4B4;
+            -webkit-box-shadow: 0 2px 9px 0px #B4B4B4;
+            box-shadow: 0 2px 9px 0px #B4B4B4;font-size:14px; border:1px solid #3B94DE; background:#FFF; cursor:default; text-align:left; max-height:350px; overflow:auto; margin:-6px 6px 6px -6px; /* IE6 specific: */ _height:350px;  _margin:0; _overflow-x:hidden; }
+.autocomplete div:hover{background:#F0F0F0;}
+.autocomplete .selected { background:#F0F0F0; }
+.autocomplete div { padding:7px; white-space:nowrap; }
+.autocomplete strong { font-weight:bold;  }/*color:#3399FF;*/
+.autocomplete > div + div {border-top: 1px solid #EEE;}

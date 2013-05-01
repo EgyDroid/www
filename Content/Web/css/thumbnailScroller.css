@@ -1,0 +1,29 @@
+@charset "utf-8";
+/*
+Thumbnail scroller jQuery plugin
+scrollers styling
+*/
+.jThumbnailScroller{position:relative; width:900px; margin:30px auto; background:#FFF; padding:0; overflow:hidden;}
+.jts1{height:122px;}
+.jts2{height:247px;}
+.jts3{height:372px;}
+.jThumbnailScroller .jTscrollerContainer{position:absolute;}
+.jThumbnailScroller .jTscroller{position:relative; height:100%; margin:0; left:0; top:0; display:inline-block; *display:inline;}
+.jThumbnailScroller .jTscrollerNextButton,.jThumbnailScroller .jTscrollerPrevButton{position:absolute; display:block; width:40px; height:40px; -moz-border-radius:20px; -webkit-border-radius:20px; border-radius:20px; opacity:0.8;}
+.jThumbnailScroller .jTscrollerNextButton{background:#ebebeb url(nextArrow.png) center center; margin:-20px 10px 0 10px; right:0; top:50%;}
+.jThumbnailScroller .jTscrollerPrevButton{background:#ebebeb url(prevArrow.png) center center; margin:-20px 10px 0 10px; left:0; top:50%;}
+.jThumbnailScroller .jTscrollerNextButton:hover,.jThumbnailScroller .jTscrollerPrevButton:hover{background-color:#ea6c26; opacity:1;}
+.jThumbnailScroller .jTscroller a{display:block; float:left; border:1px solid #a6a6a6; margin:6px 10px 6px 0; background:#fff; opacity:0.9; overflow:hidden; width:147px; height:110px; -moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px;}
+.jThumbnailScroller .jTscroller a:hover{border-color:#ea6c26; opacity:1;}
+.jThumbnailScroller .jTscroller a:first-child{margin-left:10px;}
+.jThumbnailScroller .jTscroller a div{overflow:hidden; display: table-cell; text-align: center; vertical-align: middle; width: 147px; height: 110px;}
+.jThumbnailScroller .jTscroller a div  *{vertical-align: middle;}
+.jThumbnailScroller .jTscroller a div img{display: block; margin: auto; max-width:139px; max-height:102px; border:none;}
+
+.videoScroll{width:560px !important; margin:0px auto !important; height:100px !important; background:#333 !important;}
+.videoScroll .jTscroller a:first-child{margin-left:0px;}
+.videoScroll .jTscroller a{width:130px !important; height:84px !important; cursor:pointer; opacity:0.5 ;}
+.videoScroll .jTscroller a div{width:130px !important; height:84px !important;}
+.videoScroll .jTscroller a div img{max-width:122px !important; max-height:76px !important;}
+.nowPlaying{opacity:1 !important;}
+#player{width:560px; height:315px; margin:0px auto; background-color:#f2f2f2;}
